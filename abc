@@ -1,0 +1,273 @@
+local ui = loadstring(game:HttpGet"https://pastebin.com/raw/E9PzvbeX")()
+
+local window = ui:new("小魔")
+
+local creds = window:Tab("主要",'14654173453')
+
+local bin = creds:section("信息",true)
+
+    bin:Label("你的用户名:"..game.Players.LocalPlayer.Name)
+    bin:Label("你的注入器:"..identifyexecutor())
+
+local credits = creds:section("UI设置",true)
+
+    credits:Button("摧毁UI",function()
+        game:GetService("CoreGui")["frosty"]:Destroy()
+    end)
+
+    credits:Toggle("彩虹UI", "", false, function(state)
+        if state then
+        game:GetService("CoreGui")["frosty"].Main.Style = "DropShadow"
+        else
+            game:GetService("CoreGui")["frosty"].Main.Style = "Custom"
+        end
+    end)
+    
+local uuu = window:Tab("主要",'14654173453')
+
+local Section = uuu:section('主要',true)    
+    
+Section:Button("面具", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/gSwKQCBS"))()
+end)
+    
+Section:Button("doors", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/UA73C91x"))()
+end)
+    
+Section:Button("忍者传奇", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/dZqP5i4Y"))()
+end)
+    
+Section:Button("彩虹朋友", function()
+    dstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/Rainbow-Friends/main/Rainbow%20Friends"))()
+end)
+    
+Section:Button("伐木大亨", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/Jr87cgHb"))()  
+end)
+    
+Section:Button("极速传奇", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/AyeCYbT6"))()  
+end)
+    
+Section:Button("破坏者谜团", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0murder", true))()
+end)
+    
+Section:Button("小黑子", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0swordwarrior"))()
+end)
+    
+Section:Button("造船寻宝", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/urmomjklol69/GoldFarmBabft/main/GoldFarm.lua'),true))()
+end)
+    
+Section:Button("bf已汉化", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/Xiao-Yun-UWU/main/%E6%B5%B7%E8%B4%BC%E7%8E%8Bbf.lua", true))()
+end)
+    
+Section:Button("蜂群模拟器", function()
+    loadstring(game:HttpGet("https://rahttps://rahttps://raw.githubusercontent.com/USA868/USA--/main/.github/%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B/1%E6%9D%96%E4%BA%BA%E4%BD%BF%E7%94%A8?token=GHSAT0AAAAAACB6LLQWA5JNQNNWTP47AOWSZCLYRTQ"))()
+end)
+    
+Section:Button("力量传奇", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/95vYW9FG"))()
+end)
+    
+Section:Button("监狱人生", function()
+    loadstring(game:HttpGetAsync("https://pastebin.com/raw/fYMnAEeJ"))()
+end)
+    
+    local Section = uuu:section('玩家',true)    
+    
+Section:Button("点击传送", function()
+    mouse = game.Players.LocalPlayer:GetMouse() tool = Instance.new("Tool") tool.RequiresHandle = false tool.Name = "[FE] TELEPORT TOOL" tool.Activated:connect(function() local pos = mouse.Hit+Vector3.new(0,2.5,0) pos = CFrame.new(pos.X,pos.Y,pos.Z) game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos end) tool.Parent = game.Players.LocalPlayer.Backpack
+end)
+    
+Section:Button("透视", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/H3RLCWWZ'))()
+end)
+    
+Section:Button("无敌", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/uw2P2fbY"))()
+end)
+    
+Section:Button("无限跳", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/V5PQy3y0", true))()
+end)
+    
+Section:Button("飞行", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/U27yQRxS"))()
+end)
+    
+Section:Button("穿墙", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/jvyN5hT8"))()
+end)
+    
+Section:Button("夜视", function()
+        if Value then
+            game.Lighting.Ambient = Color3.new(1, 1, 1)
+        else
+            game.Lighting.Ambient = Color3.new(0, 0, 0)
+        end
+    end)
+    
+Section:Button("摇花手", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/1p6xnBNf'),true))()
+end)
+    
+    local Section = uuu:section('其他脚本',true)
+    
+Section:Button("传送玩家", function()
+    loadstring(game:HttpGet(("https://pastebin.com/raw/YNVbeqPy")))()
+end)
+    
+Section:Button("青脚本", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/kkaaccnnbb/money/main/fix'))()
+end)
+    
+Section:Button("神光", function()
+    loadstring(game:HttpGet(utf8.char((function() return table.unpack({104,116,116,112,115,58,47,47,112,97,115,116,101,98,105,110,46,99,111,109,47,114,97,119,47,56,102,50,76,99,113,113,80})end)())))()
+end)
+    
+Section:Button("XC卡密a", function()
+    getgenv().XC="作者XC"loadstring(game:HttpGet("https://pastebin.com/raw/PAFzYx0F"))()
+end)
+    local ui = loadstring(game:HttpGet"https://pastebin.com/raw/E9PzvbeX")()
+
+local window = ui:new("小魔")
+
+local creds = window:Tab("主要",'14654173453')
+
+local bin = creds:section("信息",true)
+
+    bin:Label("你的用户名:"..game.Players.LocalPlayer.Name)
+    bin:Label("你的注入器:"..identifyexecutor())
+
+local credits = creds:section("UI设置",true)
+
+    credits:Button("摧毁UI",function()
+        game:GetService("CoreGui")["frosty"]:Destroy()
+    end)
+
+    credits:Toggle("彩虹UI", "", false, function(state)
+        if state then
+        game:GetService("CoreGui")["frosty"].Main.Style = "DropShadow"
+        else
+            game:GetService("CoreGui")["frosty"].Main.Style = "Custom"
+        end
+    end)
+    
+local uuu = window:Tab("主要",'14654173453')
+
+local Section = uuu:section('主要',true)    
+    
+Section:Button("面具", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/gSwKQCBS"))()
+end)
+    
+Section:Button("doors", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/UA73C91x"))()
+end)
+    
+Section:Button("忍者传奇", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/dZqP5i4Y"))()
+end)
+    
+Section:Button("彩虹朋友", function()
+    dstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/Rainbow-Friends/main/Rainbow%20Friends"))()
+end)
+    
+Section:Button("伐木大亨", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/Jr87cgHb"))()  
+end)
+    
+Section:Button("极速传奇", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/AyeCYbT6"))()  
+end)
+    
+Section:Button("破坏者谜团", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0murder", true))()
+end)
+    
+Section:Button("小黑子", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0swordwarrior"))()
+end)
+    
+Section:Button("造船寻宝", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/urmomjklol69/GoldFarmBabft/main/GoldFarm.lua'),true))()
+end)
+    
+Section:Button("bf已汉化", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/Xiao-Yun-UWU/main/%E6%B5%B7%E8%B4%BC%E7%8E%8Bbf.lua", true))()
+end)
+    
+Section:Button("蜂群模拟器", function()
+    loadstring(game:HttpGet("https://rahttps://rahttps://raw.githubusercontent.com/USA868/USA--/main/.github/%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B/1%E6%9D%96%E4%BA%BA%E4%BD%BF%E7%94%A8?token=GHSAT0AAAAAACB6LLQWA5JNQNNWTP47AOWSZCLYRTQ"))()
+end)
+    
+Section:Button("力量传奇", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/95vYW9FG"))()
+end)
+    
+Section:Button("监狱人生", function()
+    loadstring(game:HttpGetAsync("https://pastebin.com/raw/fYMnAEeJ"))()
+end)
+    
+    local Section = uuu:section('玩家',true)    
+    
+Section:Button("点击传送", function()
+    mouse = game.Players.LocalPlayer:GetMouse() tool = Instance.new("Tool") tool.RequiresHandle = false tool.Name = "[FE] TELEPORT TOOL" tool.Activated:connect(function() local pos = mouse.Hit+Vector3.new(0,2.5,0) pos = CFrame.new(pos.X,pos.Y,pos.Z) game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos end) tool.Parent = game.Players.LocalPlayer.Backpack
+end)
+    
+Section:Button("透视", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/H3RLCWWZ'))()
+end)
+    
+Section:Button("无敌", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/uw2P2fbY"))()
+end)
+    
+Section:Button("无限跳", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/V5PQy3y0", true))()
+end)
+    
+Section:Button("飞行", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/U27yQRxS"))()
+end)
+    
+Section:Button("穿墙", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/jvyN5hT8"))()
+end)
+    
+Section:Button("夜视", function()
+        if Value then
+            game.Lighting.Ambient = Color3.new(1, 1, 1)
+        else
+            game.Lighting.Ambient = Color3.new(0, 0, 0)
+        end
+    end)
+    
+Section:Button("摇花手", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/1p6xnBNf'),true))()
+end)
+    
+    local Section = uuu:section('其他脚本',true)
+    
+Section:Button("传送玩家", function()
+    loadstring(game:HttpGet(("https://pastebin.com/raw/YNVbeqPy")))()
+end)
+    
+Section:Button("青脚本", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/kkaaccnnbb/money/main/fix'))()
+end)
+    
+Section:Button("神光", function()
+    loadstring(game:HttpGet(utf8.char((function() return table.unpack({104,116,116,112,115,58,47,47,112,97,115,116,101,98,105,110,46,99,111,109,47,114,97,119,47,56,102,50,76,99,113,113,80})end)())))()
+end)
+    
+Section:Button("XC卡密a", function()
+    getgenv().XC="作者XC"loadstring(game:HttpGet("https://pastebin.com/raw/PAFzYx0F"))()
+end)
+    
